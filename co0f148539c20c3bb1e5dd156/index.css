@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background: url("https://images.unsplash.com/photo-1540717448005-61875215d378?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80");
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+}
+.title{
+    font-size: 1.8rem
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: url("https://cdn.pixabay.com/photo/2018/04/07/10/52/woman-3298209_1280.jpg");
+    background-size: contain;
+    width: 600px;
+    height: 400px;
+    margin:0 auto;
+    text-align: center;
+    color: white;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-top:-5rem; 
+}
+.scoreboard{
+    width: 155px;
+    height: 120px;
+    background: black;
+    opacity: 0.75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-family: 'Black Ops One', cursive;
+    margin-top: 2.5rem;
+    box-shadow: 0px 0px 5px 2px;
+}
+.buttons{
+    width: 155px;
+    height: 50px;
+    margin-top: 26px;
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+}
+.btn-style{
+    height: 45px;
+    width: 45px;
+    background: black;
+    color: white;
+    opacity: 0.8;
+    border: 1px solid white;  
+}
+.btn-style:hover{
+    opacity: 1;
+    border: 2px solid white;
+}
+
+#clear-btn{
+    background: black;
+    color: white;
+    opacity: 0.8;
+    width: 200px;
+    height: 50px;
+    margin-top: -250px;
+    border: 3px solid #df4931; 
+}
+#clear-btn:hover{
+    opacity: 1;
+    border: 4px solid #df4931;
+}
+
+.btn-container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    align-items:center;
+    
+}
+.rectangular{
+    width: 150px;
+    height: 100px;
+    background:white;
+    margin: 0 auto;
+    box-shadow: 0px 0px 0px 14px black,
+    0px 0px 0px 50px white,
+    0px 0px 0px 64px grey,
+    90px 0px 100px 70px;
+    display:flex;
+    align-items: flex-end;
+}
+.ring{
+    width: 130px;
+    background: #df4931;
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    z-index: 1;
+}
+.net{
+    width: 120px;
+    height: 90px;
+    background: url("https://png.vector.me/files/images/2/5/250513/basketball_net_preview");
+    background-size: cover;
+    margin: 0 auto;
+    z-index: 2;
+    
+}
+.pole{
+    height: 200px;
+    width: 20px; 
+    background: black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: -2.2rem;
+    opacity: 0.7;
+}
+.hoop{
+    margin-left: 2rem;
+    margin-top: 10rem;
+    
+}
